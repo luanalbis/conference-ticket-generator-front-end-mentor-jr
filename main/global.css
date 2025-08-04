@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Inconsolata;
+    color: white;
+}
+
+html,
+body {
+    text-decoration: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('../assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
