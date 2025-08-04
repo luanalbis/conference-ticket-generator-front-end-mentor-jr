@@ -1,12 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Inconsolata;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
 html,
 body {
-    text-decoration: none;
     width: 100vw;
     height: 100vh;
 }
 
 body {
-    background-image: url("../../assets/images/background-desktop.png");
+    background-image: url("assets/images/background-desktop.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,7 +31,6 @@ body {
     align-items: center;
     gap: 30px;
 }
-
 
 #mobile-imgs {
     display: none;
@@ -103,7 +117,6 @@ body {
 .conteiner-input-image:hover {
     background-color: rgba(128, 128, 128, 0.39);
 }
-
 
 #input-image-label {
     width: 60px;
@@ -277,7 +290,7 @@ input:hover {
 
 @media (max-width: 750px) {
     body {
-        background-image: url("../../assets/images/background-tablet.png");
+        background-image: url("assets/images/background-tablet.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;

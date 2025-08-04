@@ -1,7 +1,6 @@
 let name, email, username, avatar;
 const avatarInput = document.getElementById('input-img');
 
-
 avatarInput.addEventListener('change', e => {
     avatar = e.target.files[0];
     if (avatar) {

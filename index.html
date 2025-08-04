@@ -6,33 +6,30 @@
         <meta charset="UTF-8" />
         <title>title</title>
         <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="../global.css">
     </head>
 
     <body>
-        <img id="txt-event" src="../../assets/images/logo-full.svg" alt="">
+        <img id="txt-event" src="assets/images/logo-full.svg" alt="">
         <section class="header-container">
             <h5 id="txt-main">Your Journey to Coding Conf 2025 Starts Here!</h5>
             <p id="txt-sub-main">Secure your spot at next year's biggest coding conference.</p>
         </section>
         <div id="desktop-imgs" style="max-width: 100px;">
             <img style="position: fixed;bottom: 0;left: 0; z-index: 0;"
-                src="../../assets/images/pattern-squiggly-line-bottom-desktop.svg" alt="">
-            <img style="position: fixed;top: 0;right: 0; z-index: 0;"
-                src="../../assets/images/pattern-squiggly-line-top.svg" alt="">
-            <img style="position: fixed;top: 45%;right: 20%; z-index: 0;" src="../../assets/images/pattern-circle.svg"
+                src="assets/images/pattern-squiggly-line-bottom-desktop.svg" alt="">
+            <img style="position: fixed;top: 0;right: 0; z-index: 0;" src="assets/images/pattern-squiggly-line-top.svg"
                 alt="">
+            <img style="position: fixed;top: 45%;right: 20%; z-index: 0;" src="assets/images/pattern-circle.svg" alt="">
             <img style="height: 100%;  position: fixed;top: 0;right: 0; z-index: 1;"
-                src="../../assets/images/pattern-lines.svg" alt="">
+                src="assets/images/pattern-lines.svg" alt="">
         </div>
 
         <div id="mobile-imgs" style="max-width: 100px;">
             <img style="width: 300px;  position: fixed;bottom: 0;left: 0; z-index: 0;"
-                src="../../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg" alt="">
+                src="assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg" alt="">
             <img style="width: 200px;  position: fixed;top: 0;right: 0; z-index: 0;"
-                src="../../assets/images/pattern-squiggly-line-top.svg" alt="">
-            <img style=" position: fixed;top: 0;right: 0; z-index: 1;" src="../../assets/images/pattern-lines.svg"
-                alt="">
+                src="assets/images/pattern-squiggly-line-top.svg" alt="">
+            <img style=" position: fixed;top: 0;right: 0; z-index: 1;" src="assets/images/pattern-lines.svg" alt="">
         </div>
         <main class="main-container">
 
@@ -41,7 +38,7 @@
                     <label class="label-form" for="input-img">Upload Avatar</label>
                     <div class="conteiner-input-image">
                         <label id="input-image-label" class="input-form" for="input-img"><img id="avatar-image"
-                                src="../../assets/images/icon-upload.svg" alt="file" /></label>
+                                src="assets/images/icon-upload.svg" alt="file" /></label>
                         <input name="avatar" type="file" id="input-img" accept=".jpg,.png" style="display: none;">
                         <div id="conteiner-btns-remove-change">
                             <button id="btn-remove-image" onclick="removeImage()" type="button">Remove image</button>
@@ -51,7 +48,7 @@
                     </div>
                     <div
                         style="display:flex; align-items: center; gap: 2px;  color: rgb(192, 191, 191); font-size: .8rem; width: 100%;">
-                        <img src="../../assets/images/icon-info.svg" alt="">
+                        <img src="assets/images/icon-info.svg" alt="">
                         <p id="txt-upload-info">
                             Upload your photo (JPG or PNG,
                             max size: 5MB)
@@ -62,7 +59,7 @@
                     <label class="label-form" for="input-name">Full Name</label>
                     <input name="name" class="input-form" id="input-name" type="text">
                     <div id="conteiner-name" class="conteiner-invalid-form">
-                        <img src="../../assets/images/icon-info.svg" alt="">
+                        <img src="assets/images/icon-info.svg" alt="">
                         <p id="txt-upload-info">
                             Please enter a valid name.
                         </p>
@@ -73,7 +70,7 @@
                     <input name="email" class="input-form" id="input-email" type="email"
                         placeholder="example@email.com">
                     <div id="conteiner-email" class="conteiner-invalid-form">
-                        <img src="../../assets/images/icon-info.svg" alt="">
+                        <img src="assets/images/icon-info.svg" alt="">
                         <p id="txt-upload-info">
                             Please enter a valid email address.
                         </p>
@@ -84,7 +81,7 @@
                     <input name="username" class="input-form" id="input-username" type="text"
                         placeholder="@yourusername">
                     <div id="conteiner-username" class="conteiner-invalid-form">
-                        <img src="../../assets/images/icon-info.svg" alt="">
+                        <img src="assets/images/icon-info.svg" alt="">
                         <p id="txt-upload-info">
                             Please enter a valid GitHub username.
                         </p>
@@ -93,12 +90,12 @@
                 <button class="btn-submit" type="submit">Generate My Ticket</button>
             </form>
             <div id="container-ticket">
-                <img id="ticket-img" src="../../assets/images/pattern-ticket.svg" alt="">
+                <img id="ticket-img" src="assets/images/pattern-ticket.svg" alt="">
 
                 <div id="conteiner-ticket-info">
                     <div id="conteiner-header-ticket">
                         <div>
-                            <img src="../../assets/images/logo-mark.svg" alt="">
+                            <img src="assets/images/logo-mark.svg" alt="">
                         </div>
                         <div>
                             <h3>Coding Conf</h3>
@@ -108,12 +105,12 @@
 
                     <div id="conteiner-footer-ticket">
                         <div>
-                            <img id="avatar-ticket" src="../../assets/images/icon-upload.svg" alt="">
+                            <img id="avatar-ticket" src="assets/images/icon-upload.svg" alt="">
                         </div>
                         <div>
                             <h3 id="name-ticket"></h3>
                             <div style="display: flex; flex-direction: row;">
-                                <img style="width: 20px;" src="../../assets/images/icon-github.svg" alt="">
+                                <img style="width: 20px;" src="assets/images/icon-github.svg" alt="">
                                 <p id="username-ticket"></p>
                             </div>
                         </div>
